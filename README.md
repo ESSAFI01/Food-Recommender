@@ -69,3 +69,5 @@ A **Streamlit web app** that recommends food products based on your available in
 
 * [Open Food Facts](https://world.openfoodfacts.org/) — for the open food product dataset
 
+## Developed by : 
+* Ayoub Gorry | Anass Essafi 
