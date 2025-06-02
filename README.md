@@ -35,11 +35,7 @@ A **Streamlit web app** that recommends food products based on your available in
    ```
 
 3. **Import data into MongoDB**
-   Make sure MongoDB is running, then import the sample Open Food Facts data:
-
-   ```bash
-   mongoimport --db openfoodfacts --collection products --file recommend_data_json/part-00000-*.json --jsonArray
-   ```
+   Make sure MongoDB is running, then import the sample Open Food Facts data
 
 4. **Run the application**
 
@@ -53,7 +49,6 @@ A **Streamlit web app** that recommends food products based on your available in
 
   * A TF-IDF vocabulary for encoding ingredient descriptions.
   * A synonym dictionary for standardizing user input (e.g., mapping "beure" → "butter").
-* `recommend_data_json/` — Sample data exported from Open Food Facts (JSON format).
 * `1046857.png` — Default product image shown when no match or image is found.
 
 ## 📁 File Structure
@@ -62,7 +57,6 @@ A **Streamlit web app** that recommends food products based on your available in
 .
 ├── app.py                  # Main Streamlit app
 ├── model_assets.pkl        # NLP assets (vocabulary + synonyms)
-├── recommend_data_json/    # Food data used to populate MongoDB
 ├── requirements.txt        # Python package requirements
 └── 1046857.png             # Default fallback image
 ```
