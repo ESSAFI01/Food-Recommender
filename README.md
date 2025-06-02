@@ -64,8 +64,6 @@ A **Streamlit web app** that recommends food products based on your available in
 ## 🔧 Customization
 
 * Modify the MongoDB connection string in `app.py` to point to your MongoDB instance.
-* You can expand the synonym mapping by editing the preprocessing logic in the script.
-* Customize the list of allergens, Nutri-Scores, or supported countries directly in the UI dropdowns.
 
 ## 📚 Acknowledgements
 
